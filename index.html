@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Latihan Halaman HTML Lengkap</title>
+</head>
+<body>
+
+    <header>
+        <h1>Blog Teknologi Modern</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tentang</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr> <main>
+        
+        <article>
+            <h2>Judul Artikel: Apa Itu HTML Semantik?</h2>
+            <p>Diterbitkan pada <time datetime="2025-08-04">4 Agustus 2025</time></p>
+            
+            <img src="https://via.placeholder.com/600x200.png?text=Gambar+Artikel" alt="Banner ilustrasi kode HTML" width="600" height="200">
+            
+            <section>
+                <h3>Pengenalan</h3>
+                <p>
+                    HTML Semantik adalah penggunaan tag HTML sesuai dengan makna atau tujuannya, bukan hanya untuk tampilannya. Sebagai contoh, menggunakan <strong>&lt;nav&gt;</strong> untuk navigasi dan <strong>&lt;footer&gt;</strong> untuk bagian bawah halaman. Ini membantu <span>mesin pencari</span> dan teknologi pembantu (seperti screen reader) untuk memahami struktur halaman Anda.
+                </p>
+                <p>
+                    Contoh tag non-semantik adalah <strong>&lt;div&gt;</strong> dan <strong>&lt;span&gt;</strong>. Keduanya tidak memiliki makna khusus, hanya sebagai wadah.
+                </p>
+            </section>
+            
+            <section>
+                <h3>Contoh Formulir Komentar</h3>
+                <form action="#" method="post">
+                    <div>
+                        <label for="nama_pengguna">Nama:</label><br>
+                        <input type="text" id="nama_pengguna" name="nama_pengguna" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email_pengguna">Email:</label><br>
+                        <input type="email" id="email_pengguna" name="email_pengguna" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="komentar_pengguna">Komentar:</label><br>
+                        <textarea id="komentar_pengguna" name="komentar_pengguna" rows="4" cols="50" required></textarea>
+                    </div>
+                    <br>
+                    <button type="submit">Kirim Komentar</button>
+                </form>
+            </section>
+            
+        </article>
+    </main>
+    
+    <hr>
+    
+    <footer>
+        <p>&copy; 2025 Latihan Kode Saya. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
