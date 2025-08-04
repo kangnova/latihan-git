@@ -1,0 +1,46 @@
+/* style.css */
+
+/* Pengaturan dasar untuk seluruh halaman */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Men-styling bagian header */
+header {
+    background-color: #ffffff;
+    color: #333;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Men-styling list navigasi di dalam header */
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+/* Men-styling link <a> di dalam navigasi header */
+header nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Efek saat kursor mouse berada di atas link navigasi */
+header nav a:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
