@@ -44,3 +44,42 @@ header nav a:hover {
     background-color: #f0f0f0;
     color: #000;
 }
+
+/* Menata kontainer utama */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Memberi gaya pada blok artikel */
+article {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Men-styling judul artikel */
+article h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Men-styling info tanggal terbit */
+article .info-artikel {
+    font-size: 0.9rem;
+    color: #888;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Men-styling gambar artikel */
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
